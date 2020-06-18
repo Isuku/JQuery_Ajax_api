@@ -1,0 +1,162 @@
+
+#firstStyle{
+	color: #524AAD;
+	font-size: 60px;
+}
+
+#secondStyle, #thirdStyle{
+	font-size: 50px;
+}
+
+#firstForm, #secondForm{
+	width: 60%;
+	border-left: 10px solid #524AAD;
+	border-radius: 5px;
+	height: 50px;
+	border-right: 1px solid grey;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+#secondButton {
+	border: 2px solid #524AAD;
+	color: #6b5b95;
+	width: 115px;
+	height: 40px;
+	text-align: center;
+
+}
+
+#firstButton {
+	border: 2px solid #524AAD;
+	color: #6b5b95;
+	width: 115px;
+	height: 40px;
+	text-align: center;
+	background-color: #524AAD;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 1px 2px 1px #524AAD;
+}
+
+#fourthForm{
+	margin-left: 30%;
+	color: grey;
+}
+
+#image{
+	margin-top: 120px;
+	height: 450px
+	width: 500px;
+}
+
+#firstButton:hover {
+	background-color: #524AAD;
+	color: white;
+}
+
+#secondButton:hover {
+	background-color: #524AAD;
+	color: white;
+}
+
+#firstDiv{
+	padding: 30px;
+}
+
+#fourthForm{
+  position: absolute;
+  right: 235px;
+}
+
+#spanButton{
+	position: absolute;
+	right: 295px;
+}
+
+#textForm{
+	line-height: 40px;
+}
+
+#text{
+	font-size: 20px;
+	color: grey;
+}
+
+#firstAlert, #secondAlert {
+	height: 7px;
+	color: red;
+	line-height: 10px;
+}
+
+#body{
+	background-color: #524AAD;
+}
+
+#list {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+p {
+  color: black;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+  border-spacing: 5px;
+}
+
+
+#teamDiv{
+	padding: 100px;
+}
+
+#button{
+	margin-left: 700px;
+	text-align: left;
+	background-color: orange;
+	font-size: 12px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+#span{
+	margin-left: 6px;
+	color: white;
+}
+
+#rem{
+	color: grey;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+    font-size: 67%;
+    transform: translate3d(0, -10%, 0);
+    opacity: 1;
+    color: #a5aeb7;
+}
+
+.form-control-placeholder {
+        position: absolute;
+        font-size:15px;
+        top: 0;
+        padding: 7px 0 0 24px;
+        transition: all 200ms;
+        color: #a5aeb7;
+    }
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
